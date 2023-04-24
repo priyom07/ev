@@ -1,0 +1,120 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+/* COLOR CODES */
+/* #7DF9FF --electric blue */
+/* #12AD2B-- parrot green */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,400&display=swap');
+
+/*    font-family: 'Ubuntu', sans-serif; */
+
+
+.navbar1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(41, 38, 38);
+    color: antiquewhite;
+
+}
+
+.navbar1 .email {
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+    padding: 5px;
+
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+    display: flex;
+
+}
+
+.hero img {
+    width: 100%;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.top-right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.top-right a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 20px;
+    padding: 10px;
+
+}
+
+.top-right a:hover {
+    color: #12AD2B;
+}
+
+.top-right button {
+    background: transparent;
+    padding: 8px;
+    color: antiquewhite;
+    border-color: #12AD2B;
+    border-radius: 5px;
+
+}
+
+.top-right button:hover {
+    background-color: #12AD2B;
+    color: black;
+    transition: 0.6s ease;
+}
+/* CENTER TEXT */
+
+.center-text {
+    position: absolute;
+    margin-top: 100px;
+    margin-right: 200px;
+    /* transform:translate(-50%,-50%); */
+}
+
+.center-text #go-green {
+    color: #12AD2B;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 60px;
+    text-shadow: 5px 5px 5px black;
+}
+.center-text button{
+    margin:15px;
+    font-family: 'Ubuntu', sans-serif;
+    padding:15px;
+    margin-top:10px;
+    border-radius: 5px;
+}
+/* aFTER MAIN NAVBAR */
+.after-main-navbar{
+    display:flex;
+    justify-content:space-between;
+    margin:5px auto;
+    background-color:antiquewhite;
+    height:90px;
+    align-items:center;
+}
+.after-main-navbar h4{
+    color:#12AD2B;
+}
